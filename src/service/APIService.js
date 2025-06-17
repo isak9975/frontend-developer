@@ -155,5 +155,5 @@ export function signout(){
 //계정 생성
 export function signup(userDTO){
     return call("/auth/signup","POST",userDTO);
-    window.location.href="/login";
+    // window.location.href="/login";
 }

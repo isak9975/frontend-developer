@@ -68,7 +68,7 @@ import {Button, Grid,TextField} from '@mui/material'
 
     //엔터키 누르면 버튼클릭할때랑 같은 효과를 내라
     const enterKeyEventHandler = (e) => {
-        if(e.key =="Enter"){
+        if(e.key ==="Enter"){
             onButtonClick();
         }
     }

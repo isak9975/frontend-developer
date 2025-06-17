@@ -1,13 +1,8 @@
-import logo from './logo.svg';
-import logo1 from './고양6-3.png';
 import './App.css';
 import Todo from './Todo';
-import Example from './Example.js';
-import { Farewell } from './Greetings.js';
 import { useState,useEffect } from 'react';
 import {AppBar, Button, Container,Grid,List, Paper, Toolbar, Typography} from '@mui/material'
 import AddTodo from './AddTodo.js';
-import axios from 'axios'
 import { call, signout } from './service/APIService.js';
 import { Link } from 'react-router-dom'
 

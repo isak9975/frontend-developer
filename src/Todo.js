@@ -4,7 +4,6 @@ import {ListItem,
     ListItemText, 
     InputBase, 
     Checkbox, 
-    listItemSecondaryAction, 
     IconButton,
     ListItemSecondaryAction} from '@mui/material'
 import DeleteOutlined from '@mui/icons-material/DeleteOutlineOutlined'
@@ -53,7 +52,7 @@ let Todo = (props) => {
     //     })
     // }
     const turnOnReadOnly = (e) =>{
-        if(e.key=='Enter' && readOnly===false){
+        if(e.key==='Enter' && readOnly===false){
             setReadOnly(true); //readOnly true가 읽기만 허용.
             editiItem(item);
         }
