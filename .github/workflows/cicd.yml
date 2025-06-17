@@ -30,7 +30,7 @@ jobs:
         run: mv build react-eb-final/
 
       - name: Zip react-eb-final folder
-        run : zip -r react-eb-final.zip react eb-final
+        run : zip -r react-eb-final.zip react-eb-final
 
       - name: Get current time #현재 시간 가져오기
         uses: josStorer/get-current-time@v2.0.2
