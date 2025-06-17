@@ -21,7 +21,7 @@ jobs:
         # run: chmod +x gradlew #chmod +x 명령어를 통해 gradlew에 실행권한을 부여한다./
 
       - name: Build with Node
-        run: /npm run build #프로젝트를 빌드하는 명령어
+        run: npm run build #프로젝트를 빌드하는 명령어
 
       - name: Get current time #현재 시간 가져오기
         uses: josStorer/get-current-time@v2.0.2
