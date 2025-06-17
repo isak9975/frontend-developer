@@ -20,6 +20,9 @@ jobs:
       # - name: Grant execute permission for gradlew
         # run: chmod +x gradlew #chmod +x 명령어를 통해 gradlew에 실행권한을 부여한다./
 
+      - name: react-script install
+        run: npm install react-scripts
+
       - name: Build with Node
         run: npm run build #프로젝트를 빌드하는 명령어
 
